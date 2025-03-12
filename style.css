@@ -1,9 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 0px;
-  margin-left: 200px;
-  margin-right: 200px;
   margin-top: 0;
 }
 body,
@@ -12,15 +7,14 @@ div {
 }
 
 main {
-  width: 100%;
+  margin-inline: auto;
+  max-width: 400px;
 }
 footer {
-  width: 100%;
+  margin-inline: auto;
+  max-width: 400px;
 }
 
-span {
-  margin-left: 3em;
-}
 main img {
   background-size: contain;
   background-repeat: no-repeat;
@@ -32,19 +26,34 @@ main img {
 }
 .commento {
   color: darkgrey;
-  align-items: center;
+  text-align: center;
 }
 main div div {
   color: orange;
 }
-.cranberry {
-  margin-top: 0;
+.uva {
+  margin-block-start: 0;
   color: #107777;
 }
 video {
   width: 100%;
+  border-radius: 10px;
 }
 header div p {
   display: flex;
   justify-content: center;
+}
+header div {
+  text-align: center;
+}
+.topline {
+  border-color: yellow;
+  border-style: solid;
+}
+.bottomline {
+  border-color: #e1f9f8;
+  border-style: solid;
+}
+.freshh {
+  border-left: solid;
 }
