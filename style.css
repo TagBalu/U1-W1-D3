@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 0;
+}
+body,
+div {
+  align-items: center;
+}
+
+main {
+  width: 100%;
+}
+footer {
+  width: 100%;
+}
+
+span {
+  margin-left: 3em;
+}
+img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 100%;
+}
+.comment {
+  background-color: #fdfbf1;
+}
+.commento {
+  color: darkgrey;
+}
+main div div {
+  color: orange;
+}
+.cranberry {
+  margin-top: 0;
+  color: #107777;
+}
