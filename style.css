@@ -44,3 +44,7 @@ main div div {
 video {
   width: 100%;
 }
+header div p {
+  display: flex;
+  justify-content: center;
+}
